@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Это сайт-резюме Надежды">
+    <meta name="keywords" content="nadezhda, rezume, cv">
+    <title>nadezhda resume</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="55-2.jpg" alt="Фото Надежды" class="avatar">
+            <div class="info-text"> 
+                <h1>Надежда</h1>
+                        <p>Я обучаюсь программированию в онлайн школе <strong>Result School</strong></p>
+                        <p>Я изучаю курс <em>Джуниор Frontend-разработчик</em></p>
+            </div>
+        </div>
+            <div class="card bg-yellow">       
+                <h3>Список социальных сетей:</h3>
+                <a href="https://web.telegram.org/k/" target="_blank">Телеграмм</a>
+                |
+                <a href="https://vk.com/nadezhdaarzhakova" target="_blank">Вконтакте</a>  
+            </div> 
+        <div class="card bg-green">
+            <h3>Мои хобби</h3>
+            <ol class="list">
+                <li>Гитара</li>
+                <li>Книги</li>
+                <li>Путешествия</li>
+            </ol>
+        </div>
+        <div class="card bg-red">
+            <h3>Опыт работы</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>    
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Организация 3</td>
+                        <td>Специалист 3</td>
+                        <td>2018-н.в.</td>
+                    </tr>
+                    <tr>
+                        <td>Организация 2</td>
+                        <td>Специалист 2</td>
+                        <td>2013-2018</td>
+                    <tr>
+                        <td>Организация 1</td>
+                        <td>Специалист 1</td>
+                        <td>2008-2013</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <form action="svyz" class="form">
+            <h3>Связаться со мной</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+                <div class="form-group"> 
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" cols="50" rows="5" placeholder="Введите сообщение"></textarea>
+                </div>
+                <input class="btn" type="submit" value="Отправить">
+        </form>    
+    </div>
+</body>
+</html>
